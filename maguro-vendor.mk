@@ -15,8 +15,8 @@ PRODUCT_COPY_FILES := \
     vendor/samsung/maguro/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 # Samsung blob(s) necessary for Maguro hardware
-PRODUCT_COPY_FILES += \
-$(call find-copy-subdir-files,*,vendor/samsung/maguro/app,system/app)
+#PRODUCT_COPY_FILES += \
+#$(call find-copy-subdir-files,*,vendor/samsung/maguro/app,system/app)
 PRODUCT_COPY_FILES += \
 $(call find-copy-subdir-files,*,vendor/samsung/maguro/bin,system/bin)
 PRODUCT_COPY_FILES += \
